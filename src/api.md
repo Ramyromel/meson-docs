@@ -363,3 +363,120 @@ Example of Return Values
   "token_released": "***"
 }
 ```
+
+## Error Handling
+
+### Common Errors
+
+When using the Meson Network API, you may encounter some common errors. Here are a few examples and how to handle them:
+
+#### Invalid Token
+
+If you receive an error indicating that your token is invalid, double-check that you have copied the correct token from the Meson Network dashboard. Ensure that there are no extra spaces or characters in the token.
+
+#### Missing Parameters
+
+If you receive an error indicating that required parameters are missing, make sure that you have included all necessary parameters in your API request. Refer to the API documentation for the required parameters for each endpoint.
+
+#### Rate Limiting
+
+If you receive an error indicating that you have exceeded the rate limit, you will need to wait before making additional requests. The rate limit is in place to prevent abuse and ensure fair usage of the API.
+
+### Example Error Response
+
+Here is an example of an error response from the Meson Network API:
+
+```json
+{
+  "meta_status": 0,
+  "meta_message": "Invalid token"
+}
+```
+
+In this example, the error response indicates that the provided token is invalid. To resolve this issue, double-check your token and try again.
+
+## Examples and Use Cases
+
+### Example 1: Creating a Pull Zone
+
+To create a pull zone using the Meson Network API, follow these steps:
+
+1. Replace `$YOUR_TOKEN` and `$YOUR_DOMAIN` in the following code snippet:
+
+```json
+curl -X 'POST' \
+  'https://api.meson.network/api/pullzone/create' \
+  -H 'accept: application/json' \
+  -H 'Authorization: bearer $YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "origin": "$YOUR_DOMAIN"
+}'
+```
+
+2. Execute the code snippet in your terminal or API client.
+3. Check the response for the pull zone ID and other details.
+
+### Example 2: Checking Traffic for a Pull Zone
+
+To check the traffic for a pull zone using the Meson Network API, follow these steps:
+
+1. Replace `$YOUR_TOKEN`, `$YOUR_PullZone_ID`, `$START_DATE`, and `$END_DATE` in the following code snippet:
+
+```json
+curl -X 'POST' \
+  'https://api.meson.network/api/pullzone/traffic_query' \
+  -H 'accept: application/json' \
+  -H 'Authorization: bearer $YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "filter": {
+    "continent_code": "string",
+    "country_code": "string",
+    "end_date": "$END_DATE(format yy-mm-dd)",
+    "pull_zone_id": $YOUR_PullZone_ID,
+    "start_date": "$START_DATE(format yy-mm-dd)",
+    "user_id": 0
+  }
+}'
+```
+
+2. Execute the code snippet in your terminal or API client.
+3. Check the response for the traffic details.
+
+### Example 3: Monitoring Node Status
+
+To monitor the status of your nodes using the Meson Network API, follow these steps:
+
+1. Replace `$YOUR_TOKEN` in the following code snippet:
+
+```json
+curl -X 'POST' \
+  'https://api.meson.network/api/node/query' \
+  -H 'accept: application/json' \
+  -H 'Authorization: bearer $YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "filter": {
+    "credit_user_id": 0,
+    "email_pattern": "string",
+    "forbidden": true,
+    "id": 0
+  },
+  "limit": 0,
+  "offset": 0
+}'
+```
+
+2. Execute the code snippet in your terminal or API client.
+3. Check the response for the node status details.
+
+### Example 4: Handling Errors
+
+To handle errors when using the Meson Network API, follow these steps:
+
+1. Check the error response for the `meta_status` and `meta_message` fields.
+2. Refer to the "Common Errors" section above for guidance on resolving the error.
+3. Update your API request as needed and try again.
+
+By following these examples and use cases, you can effectively use the Meson Network API to manage your pull zones, monitor node status, and handle errors.
