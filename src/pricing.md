@@ -1,99 +1,112 @@
 # 🌍 Pricing
 
-## Meson 3.0
+Meson 3.0 is a new generation of Meson Network which has lower requirements and provides more stable services.
 
-Meson 3.0 is a new generation of Meson Network which has lower deploy requirement and provides more stable services.
-
-## Meson MCDN
-
-MCDN is a hybrid CDN service that aggregates idle bandwidth in data centers and large edge devices supporting large-scale use of Web2 & Web3 applications.
-
-## Compare Meson 3.0 vs Meson MCDN
-
-<div style="text-align:center">
-<table>
-    <tr>
-        <td></td>
-        <td style="font-weight:bold">Meson 3.0</td>
-        <td style="font-weight:bold">Meson MCDN</td>
-    </tr>
-    <tr>
-        <td>Type</td>
-        <td>Community</td>
-        <td>Enterprise</td>
-    </tr>
-    <tr>
-        <td>Region</td>
-        <td>6 Continents</td>
-        <td>6 Continents</td>
-    </tr>
-    <tr>
-        <td>Composition</td>
-        <td style="font-weight:bold">Personal / Institute Service</td>
-        <td style="font-weight:bold">Network Operator / IDC Service</td>
-    </tr>
-    <tr>
-        <td>Network</td>
-        <td style="font-weight:bold">Multi-Network</td>
-        <td style="font-weight:bold">Tier 1 Network</td>
-    </tr>
-    <tr>
-        <td>Best for</td>
-        <td>Web3.0 Developer &amp; DAO</td>
-        <td>Innovation Companies with a Global focus</td>
-    </tr>
-    <tr>
-        <td rowspan="7">Built for your needs</td>
-        <td>Arweave, Filecoin, IPFS Gateway</td>
-        <td>Arweave, Filecoin, IPFS Gateway</td>
-    </tr>
-    <tr>
-        <td>TLS 1.3</td>
-        <td>TLS 1.3</td>
-    </tr>
-    <tr>
-        <td>HTTP 302 Redirection</td>
-        <td>Custom CNAME Hostnames</td>
-    </tr>
-    <tr>
-        <td>Real-time Audio / Video</td>
-        <td>SSL certificates with Let’s Encrypt integration</td>
-    </tr>
-    <tr>
-        <td>HLS</td>
-        <td>Origin & Hotlink protection</td>
-    </tr>
-    <tr>
-        <td>Meshnet-style Bandwidth</td>
-        <td>IP & Geo Whitelisting / Blacklisting</td>
-    </tr>
-    <tr>
-        <td>S3 Compatible API</td>
-        <td>Instant Cache Purging</td>
-    </tr>
-    <tr>
-        <td colspan="3">Price</td>
-    </tr>
-    <tr>
-        <td>Europe &<br>North America</td>
-        <td rowspan="5">$0.01/GB</td>
-        <td>$0.009/GB</td>
-    </tr>
-    <tr>
-        <td>Asia</td>
-        <td>$0.025/GB</td>
-    </tr>
-    <tr>
-        <td>Oceania</td>
-        <td>$0.030/GB</td>
-    </tr>
-    <tr>
-        <td>South America</td>
-        <td>$0.035/GB</td>
-    </tr>
-    <tr>
-        <td>Africa</td>
-        <td>$0.050/GB</td>
-    </tr>
-</table>
+<div class="pricing-table-wrapper">
+  <ul class="pricing-table">
+    <li class="pricing-table__item">
+      <img src="./images/falcon-1.svg" alt="" class="pricing-table__img"/>
+      <h3 class="pricing-table__title">Falcon 1</h3>
+      <p class="pricing-table__description">
+        <span class="pricing-table__tagline">Pay As You Go
+</span>
+        <span class="pricing-table__price">$0.1/GiB</span>
+        <span class="pricing-table__save">50GB traffic for free</span>
+      </p>
+      <ul class="pricing-table__products">
+        <li class="pricing-table__product">Pullzone: 10</li>
+        <li class="pricing-table__product">6 Continents</li>
+        <li class="pricing-table__product">No rate limits</li>
+        <li class="pricing-table__product">Arweave Gateway</li>
+        <li class="pricing-table__product">IPFS Gateway</li>
+        <li class="pricing-table__product">TLS 1.3</li>
+        <li class="pricing-table__product">HLS</li>
+        <li class="pricing-table__product">Meshnet-style Bandwidth</li>
+      </ul>
+      <a href="https://dashboard.meson.network/user/balance"
+      class="pricing-table__button"
+      target="_blank"
+      >
+      Try for free</a>
+    </li>
+    <li class="pricing-table__item pricing-table__item--popular" data-popular="MOST POPULAR">
+      <img src="./images/falcon-9.svg" alt="" class="pricing-table__img" />
+      <h3 class="pricing-table__title">Falcon 9</h3>
+      <p class="pricing-table__description">
+        <span class="pricing-table__tagline">Advanced+</span>
+        <span class="pricing-table__price">20% off</span>
+        <span class="pricing-table__save">Starts at $2,000</span>
+      </p>
+      <ul class="pricing-table__products">
+        <li class="pricing-table__product">Pullzone: 30</li>
+        <li class="pricing-table__product">6 Continents</li>
+        <li class="pricing-table__product">No rate limits</li>
+        <li class="pricing-table__product">Arweave Gateway</li>
+        <li class="pricing-table__product">IPFS Gateway</li>
+        <li class="pricing-table__product">TLS 1.3</li>
+        <li class="pricing-table__product">HLS</li>
+        <li class="pricing-table__product">Meshnet-style Bandwidth</li>
+      </ul>
+      <a
+      href="https://dashboard.meson.network/user/balance"
+      class="pricing-table__button"
+      target="_blank"
+      >
+      Start now</a>
+    </li>
+    <li class="pricing-table__item">
+      <img src="./images/falcon-heavy.svg" alt="" class="pricing-table__img" />
+      <h3 class="pricing-table__title">Falcon Heavy</h3>
+      <p class="pricing-table__description">
+        <span class="pricing-table__tagline">Custom</span>
+        <span class="pricing-table__price">35% off</span>
+        <span class="pricing-table__save">Starts at $10,000</span>
+      </p>
+      <ul class="pricing-table__products">
+        <li class="pricing-table__product">Pullzone: 100</li>
+        <li class="pricing-table__product">6 Continents</li>
+        <li class="pricing-table__product">No rate limits</li>
+        <li class="pricing-table__product">Arweave Gateway</li>
+        <li class="pricing-table__product">IPFS Gateway</li>
+        <li class="pricing-table__product">TLS 1.3</li>
+        <li class="pricing-table__product">HLS</li>
+        <li class="pricing-table__product">Meshnet-style Bandwidth</li>
+      </ul>
+      <a
+      href="https://dashboard.meson.network/user/balance"
+      class="pricing-table__button"
+      target="_blank"
+      >
+      Start now</a>
+    </li>
+  </ul>
+  <ul class="pricing-table-1">
+    <li class="pricing-table-1__item">
+      <div class="pricing-table-1__col pricing-table-1__md">
+      <img src="./images/starlink.svg" alt="" class="pricing-table-1__img" />
+      </div>
+      <div class="pricing-table-1__col pricing-table-1__md">
+      <ul class="pricing-table-1__products">
+        <li class="pricing-table-1__product">Products-Proxy</li>
+        <li class="pricing-table-1__product">Residential IP Pool</li>
+        <li class="pricing-table-1__product">Mixnet</li>
+        <li class="pricing-table-1__product">Video Convertion</li>
+        <li class="pricing-table-1__product">Storage one-key Gateway</li>
+        <li class="pricing-table-1__product">...</li>
+      </ul>
+      </div>
+      <div class="pricing-table-1__col pricing-table-1__lg">
+        <h3 class="pricing-table-1__title">Starlink</h3>
+        <p class="pricing-table-1__description">
+        <span class="pricing-table-1__price">$20/mo</span>
+        <span class="pricing-table-1__save">Meson Labs Access</span>
+      </p>
+      <a
+        href="https://dashboard.meson.network/user/balance" class="pricing-table-1__button"
+        target="_blank">
+        Continue
+      </a>
+      </div>
+    </li>
+  </ul>
 </div>

@@ -14,7 +14,7 @@ It is a bandwidth trading platform built on blockchain. We gather the idle bandw
 
 We don't recommend personal computers' users to install Meson yet. It is a rigmarole.
 
-## How to prevent the scenario where terminal users used IP pools to fake a large amount of access requests and maliciously earn tokens?
+## How to prevent the scenario where terminal users use IP pools to fake a large amount of access requests and maliciously earn tokens?
 
 Our token economy is a bandwidth renting model which will not incentivize usage.
 
@@ -28,7 +28,7 @@ All terminal nodes need to stake tokens on mainnet, once cheating behaviors are 
 
 ## What is the basic requirement to do mining?
 
-You need a server with at least 40GB storage and a public stable static ip is required during mining.
+You need a server with at least 20GB storage and a public stable static ip is required during mining.
 
 ## Why choose Meson Network?
 
@@ -44,14 +44,6 @@ You need a server with at least 40GB storage and a public stable static ip is re
 - The future plans will be voted on the chain.
 - Token will be distributed on decentralized infrastructure, so everyone can literally own it and trade it.
 - We believe blockchain is such powerful that we can have the chance to build the world's biggest marketplace. It's crazy but it is just like any other unbridled achievement ^^
-
-## What is the difference in the current testing period?
-
-All the Testnet Tokens will be mapped to 1% of the MainNet Tokens. According to Token, there will be 100,000,000 initial Meson Tokens, of which there will be 1,000,000 Tokens are used as the exchange of TestNet Tokens.
-
-Your MainNet Tokens = (Your TestNet Tokens / All TestNet Tokens) * (1% * All MainNet Tokens) = (Your TestNet Tokens / All TestNet Tokens) * 1,000,000
-
->For example, let's assume there will be total 160,000,000 TestNet Tokens at last, and you have 2,000,000 TestNet Tokens that time, then you will get (2,000,000 / 160,000,000) * 1,000,000 = 125,000 MainNet Tokens.
 
 ## How many TestNet Tokens will be distributed?
 
@@ -69,7 +61,7 @@ NO.
 
 A very important reason why they are currently test tokens is to make sure everything goes smoothly step by step. You don't have to exchange your test tokens and this is not even recommended if you care much about the gas fee. However, if you would like to save your test tokens on some blockchain to keep them in another way, doing the exchange to Ethereum Network would be a nice option for you.
 
-## Can I trade(transfer) my test tokens after exchanging them to Ethereum?
+## Can I trade(transfer) my test tokens after exchanging them for Ethereum?
 
 Not yet.
 
@@ -87,9 +79,9 @@ Install ca-certificates package
 sudo yum update -y && yum install -y ca-certificates -y
 ```
 
-- [2.8 HTTPS (SSL/TLS) Options - Documentation](https://www.gnu.org/software/wget/manual/html_node/HTTPS-_0028SSL_002fTLS_0029-Options.html)
+- [2.8 HTTPS (SSL/TLS) Options - Documentation](https://www.gnu.org/software/wget/manual/html_node/HTTPS-_0028SSL_0029-Options.html)
 
-## How to changing RedHat SELinux states?
+## How to change RedHat SELinux states?
 
 SELinux can run in one of three modes: enforcing, permissive, or disabled.
 
@@ -178,3 +170,143 @@ That is to change the configuration to tell your router this IP is connected wit
 References: [https://en.wikipedia.org/wiki/Network_address_translation](https://en.wikipedia.org/wiki/Network_address_translation)
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/2G1ueMDgwxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## What is the exchange rate from USD to Meson Credit?
+
+The exchange rate set by the platform is `1 USD = 1 Meson Credit`, using the "Pay as you go" charging method.
+
+## What should I pay attention to when recharging Meson?
+
+- Card payments are processed through Stripe and credited in real-time.
+- Crypto payments are processed through Coinbase Pay. If the user pays through Coinbase, the credit will be credited in real-time. If paying on-chain, it will require waiting for the blockchain to sync (confirmation time for Ethereum/Polygon is typically around 10 minutes).
+
+If you encounter any problems, you can communicate directly with core developers in the `#🧐dev-suggestions` channel of the [Meson Discord Server](https://discord.com/invite/z6YfSHDkmS).
+
+### **Add a Meson to Home Screen on iOS**
+
+**Safari** > **Share** <img src="./images/faq/1dffdfb9e2392ea87150bd6b7fcd24f6.png" alt="" height="20" width="15"> > **Add to Home Screen** <img src="./images/faq/64012076c3c8d3abc1852a3fb882154e.png" alt="" height="15" width="15" >
+
+![](./images/faq/ios-03.png)
+
+### **Add a Meson to Home Screen on Android**
+
+**Chrome** > **kebab menu** <img src="./images/faq/bsfv45VABUwZGxDrCbBc0yPoTyYW.png" alt="" height="20" width="20"> > **Add to Home screen** <img src="./images/faq/yihJJQoJ58uqXzis6DsBkbao2YtB.png" alt="" height="20" width="20">
+
+![](./images/faq/android-03.png)
+
+## Error Handling in Meson Network
+
+### Common Errors
+
+When using the Meson Network, you may encounter some common errors. Here are a few examples and how to handle them:
+
+#### Invalid Token
+
+If you receive an error indicating that your token is invalid, double-check that you have copied the correct token from the Meson Network dashboard. Ensure that there are no extra spaces or characters in the token.
+
+#### Missing Parameters
+
+If you receive an error indicating that required parameters are missing, make sure that you have included all necessary parameters in your request. Refer to the documentation for the required parameters for each endpoint.
+
+#### Rate Limiting
+
+If you receive an error indicating that you have exceeded the rate limit, you will need to wait before making additional requests. The rate limit is in place to prevent abuse and ensure fair usage of the network.
+
+### Example Error Response
+
+Here is an example of an error response from the Meson Network:
+
+```json
+{
+  "meta_status": 0,
+  "meta_message": "Invalid token"
+}
+```
+
+In this example, the error response indicates that the provided token is invalid. To resolve this issue, double-check your token and try again.
+
+## Examples and Use Cases
+
+### Example 1: Creating a Pull Zone
+
+To create a pull zone using the Meson Network, follow these steps:
+
+1. Replace `$YOUR_TOKEN` and `$YOUR_DOMAIN` in the following code snippet:
+
+```json
+curl -X 'POST' \
+  'https://api.meson.network/api/pullzone/create' \
+  -H 'accept: application/json' \
+  -H 'Authorization: bearer $YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "origin": "$YOUR_DOMAIN"
+}'
+```
+
+2. Execute the code snippet in your terminal or API client.
+3. Check the response for the pull zone ID and other details.
+
+### Example 2: Checking Traffic for a Pull Zone
+
+To check the traffic for a pull zone using the Meson Network, follow these steps:
+
+1. Replace `$YOUR_TOKEN`, `$YOUR_PullZone_ID`, `$START_DATE`, and `$END_DATE` in the following code snippet:
+
+```json
+curl -X 'POST' \
+  'https://api.meson.network/api/pullzone/traffic_query' \
+  -H 'accept: application/json' \
+  -H 'Authorization: bearer $YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "filter": {
+    "continent_code": "string",
+    "country_code": "string",
+    "end_date": "$END_DATE(format yy-mm-dd)",
+    "pull_zone_id": $YOUR_PullZone_ID,
+    "start_date": "$START_DATE(format yy-mm-dd)",
+    "user_id": 0
+  }
+}'
+```
+
+2. Execute the code snippet in your terminal or API client.
+3. Check the response for the traffic details.
+
+### Example 3: Monitoring Node Status
+
+To monitor the status of your nodes using the Meson Network, follow these steps:
+
+1. Replace `$YOUR_TOKEN` in the following code snippet:
+
+```json
+curl -X 'POST' \
+  'https://api.meson.network/api/node/query' \
+  -H 'accept: application/json' \
+  -H 'Authorization: bearer $YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "filter": {
+    "credit_user_id": 0,
+    "email_pattern": "string",
+    "forbidden": true,
+    "id": 0
+  },
+  "limit": 0,
+  "offset": 0
+}'
+```
+
+2. Execute the code snippet in your terminal or API client.
+3. Check the response for the node status details.
+
+### Example 4: Handling Errors
+
+To handle errors when using the Meson Network, follow these steps:
+
+1. Check the error response for the `meta_status` and `meta_message` fields.
+2. Refer to the "Common Errors" section above for guidance on resolving the error.
+3. Update your request as needed and try again.
+
+By following these examples and use cases, you can effectively use the Meson Network to manage your pull zones, monitor node status, and handle errors.
