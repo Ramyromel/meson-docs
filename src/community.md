@@ -1,4 +1,4 @@
-# 👾 Community
+# 📅 Events
 
 ## Media
 
@@ -8,19 +8,91 @@
     <span><a target="_blank" href="https://messari.io/asset/meson-network"><img alt="Messari" src="./images/community/messari.svg"></a></span>
     <span><a target="_blank" href="https://www.8btc.com/article/6651320/"><img alt="8BTC" src="./images/community/8btc.svg"></a></span>
     <span><a target="_blank" href="https://bits.media/pr/meson-network-zapustit-osnovnuyu-set-v-2022-godu/"><img alt="bits.media" src="./images/community/bits.media.svg"></a></span>
+    <span><a target="_blank" href="https://www.coinspeaker.com/meson-network-unveiled-new-product-on-meson-day/"><img alt="Coinspeaker" src="./images/community/coinspeaker.svg"></a></span>
+    <span><a target="_blank" href="https://coinmuhendisi.com/blog/coin-muhendisi-x-meson-network-ama-ozeti/"><img alt="coin-turk" src="./images/community/coinmuhendisi.png"></a></span>
     <span><a target="_blank" href="https://coin-turk.com/meson-network-2022-gelismeleri"><img alt="coin-turk" src="./images/community/coin-turk.svg"></a></span>
     <span><a target="_blank" href="https://cryptobriefing.com/meson-network-raises-3-5m-bandwidth-marketplace/"><img alt="Crypto Briefing" src="./images/community/cryptobriefing.svg"></a></span>
+    <span><a target="_blank" href="https://coinreaders.com/38569"><img alt="Coinreaders" src="./images/community/coinreaders.png"></a></span>
     <span><a target="_blank" href="https://coinquora.com/meson-network-raises-3-5m-in-fundraising-round/"><img alt="CoinQuora" src="./images/community/coinquora.svg"></a></span>
     <span><a target="_blank" href="https://bravenewcoin.com/insights/cyberconnect-meson-network-supporting-the-social-graph-in-web3/"><img alt="Brave New Coin" src="./images/community/bravenewcoin.svg"></a></span>
     <span><a target="_blank" href="https://smartliquidity.info/2022/02/24/showme-formed-a-partnership-with-meson-network/"><img alt="smartliquidity" src="./images/community/smartliquidity.svg"></a></span>
-    <span><a target="_blank" href="https://twitter.com/chainnewscom/status/1458371631391420417"><img alt="chainnews" src="./images/community/chainnews.svg"></a></span>
+    <span><a target="_blank" href="https://www.techflowpost.com/article/detail_15398.html"><img alt="chainnews" src="./images/community/techflowpost.svg"></a></span>
+      <span><a target="_blank" href="https://twitter.com/chainnewscom/status/1458371631391420417"><img alt="chainnews" src="./images/community/chainnews.svg"></a></span>
     <span><a target="_blank" href="https://www.theblockbeats.info/flash/54885"><img alt="BlockBeats" src="./images/community/theblockbeats.svg"></a></span>
     <span><a target="_blank" href="https://www.failory.com/startups/blockchain#toc-122-meson-network"><img alt="failory" src="./images/community/failory.svg"></a></span>
     <span><a target="_blank" href="https://zycrypto.com/meson-network-and-rss3-partner-up-to-support-open-information-syndication-protocol-in-web3/"><img alt="zycrypto" src="./images/community/zycrypto.svg"></a></span>
+    <span><a target="_blank" href="https://criptonizando.com/a-meson-network-apresenta-o-seu-novo-produto-no-meson-day-levando-ao-mercado-da-largura-de-banda-uma-gama-mais-amplo-gateway/"><img alt="Coinreaders" src="./images/community/criptonizando.png"></a></span>
     <span>...</span>
 </p>
 
 ## Events
+
+###  BNB Chain Tech Community Call / Oct 17, 2023
+
+![](./images/community/events/bnb-chain-tech-community-call.jpeg)
+
+[Twitter](https://twitter.com/BNBCHAIN/status/1714016286890398092) | [YouTube](https://www.youtube.com/watch?v=Xgv2kFFz9-o)
+
+###  BNB Greenfield Unlocking True Data Ownership / Oct 13, 2023
+
+![](./images/community/events/bnb-greenfield-unlocking-true-data-ownership.jpeg)
+
+[Twitter](https://twitter.com/BNBCHAIN/status/1712468169158512775) | [Space](https://twitter.com/i/spaces/1vAxRvnrNqqxl)
+
+###  Builders Night @ Seoul / Sep 6, 2023
+
+![](./images/community/events/BuildersNight.jpeg)
+
+[Twitter](https://twitter.com/NetworkMeson/status/1698631374864105959) | [LuMa](https://lu.ma/buidlers)
+
+###  Founders Forum @ Web3 KYOTO / Jun 29, 2023
+
+![](./images/community/events/f2161bcc-30ec-4d79-b447-94de87a6d365.webp)
+
+[Twitter](https://twitter.com/NetworkMeson/status/1674052054019457024) | [LuMa](https://lu.ma/u8tv45le)
+
+###  TIPINCON 2023 & GAGAPRO Launch Day / May 5, 2023
+
+![](./images/community/events/tipincon-2023.png)
+
+[Twitter](https://twitter.com/NetworkMeson/status/1652165301927309313) | [YouTube](https://www.youtube.com/live/dOY7LemMLo4?feature=share)
+
+###  TIPINCON 2022 & GAGA Launch Day / Dec 20, 2022
+
+![](./images/community/events/tipincon-2022.png)
+
+[Twitter](https://twitter.com/NetworkMeson/status/1603377336623443973) | [YouTube](https://www.youtube.com/watch?v=8HlgFSTgmsw)
+
+###  The Retrieval Market Summit at LabWeek22 / Oct 13, 2022
+
+![](./images/community/events/the-retrieval-market-summit.webp)
+
+[Retrieval Markets Summit](https://retrievalmarketssummit.super.site) | [Twitter](https://twitter.com/NetworkMeson/status/1585449891144179712) | [YouTube](https://www.youtube.com/watch?v=Ms0nF9qEnWQ&feature=youtu.be)
+
+###  Devcon VI / Oct 13, 2022
+
+![](./images/community/events/devcon-vi.webp)
+
+[Devcon](https://blog.ethereum.org/en/2022/10/10/devcon-impact-supporters) | [Twitter](https://twitter.com/SherlockShi_AHA/status/1580236232675954688)
+
+###  Sustainable Blockchain Summit / Oct 9, 2022
+
+![](./images/community/events/sustainable-blockchain-summit.jpeg)
+
+[Twitter](https://twitter.com/filecoingreen/status/1578829587207065600)
+
+
+###  Token2049 Welcome party / Sept 26, 2022
+
+![](./images/community/events/token2049-welcome-party.jpeg)
+
+[Twitter](https://twitter.com/allinweb3_io/status/1570670803255169027)
+
+###  TIPIN Summit 2022 / Sept 23, 2022
+
+![](./images/community/events/tipin.jpg)
+
+[YouTube](https://youtu.be/uKN1suK0xZI?t=2954) | [Twitter](https://twitter.com/HowardZjh/status/1573212369287008256)
 
 ### In New York / June 21, 2022
 
@@ -195,7 +267,32 @@
 - [Foresight Ventures: Redefine NFT (Music, 4th-Dimension, Privacy, Interaction)](https://foresightventures.medium.com/foresight-ventures-redefine-nft-music-4th-dimension-privacy-interaction-a81f011be86)
 - [Arweave：Detailed explanation of key projects](https://medium.com/@invest_71820/arweave-detailed-explanation-of-key-projects-8eebbbbba39e)
 
-## AMA
+## AMA / Podcasts
+
+### Building a Decentralized Future: Empowering the Internet with Meson Network / Jun 13, 2023
+
+![](./images/community/ama/TIPIN_PROJECT_MESON.jpeg)
+
+[Twitter](https://twitter.com/TIPIN_PROJECT/status/1663191467060346883)
+
+### ArCast / Oct 19, 2022
+
+![](./images/community/ama/arcast-meson.jpeg)
+
+[Twitter](https://twitter.com/ardriveapp/status/1582510096252211200) | [Permacast](https://app.permacast.dev/#/podcasts/rBIQpWeYcf0_reltNXTKjjEUHlQRL9CmZCNcgYjZaao) | [Spotify](https://open.spotify.com/episode/3L3jEp8ieeNL06QbA9rmHU) | [YouTube](https://www.youtube.com/watch?v=8ORPd5iazeI)
+
+
+### Bringing Bandwidth On-Chain Web3 Labs / Oct 18, 2022
+<br>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/3sKzSG55i14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Web3 Labs](https://www.buzzsprout.com/1814826/11493385) | [Twitter](https://twitter.com/web3labs/status/1582310772121948160) | [YouTube](https://www.youtube.com/watch?v=GcHmefgmZRI)
+
+### Retrieval Market Builders Demo Day - Meson Network / Feb 2, 2022
+<br>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/GcHmefgmZRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[YouTube](https://www.youtube.com/watch?v=GcHmefgmZRI)
 
 ### Arweave  AMA / Feb 15, 2022
 
@@ -233,6 +330,24 @@
 
 ## Trends
 
+### Messari State of DePIN 2023 / Jan 5, 2024
+
+![ Messari State of DePIN 2023](./images/community/twitter/state-of-depin-2023.png)
+
+[Messari](https://messari.io/report/state-of-depin-2023) | [Twitter](https://twitter.com/Old_Samster/status/1743308104174092451)
+
+### The Essential Guide to Decentralized Storage Networks / Jan 12, 2023
+
+![The Essential Guide to Decentralized Storage Networks](./images/community/twitter/the-essential-guide-to-decentralized-storage-networks.jpeg)
+
+[Twitter](https://twitter.com/Old_Samster/status/1613590277742284802)
+
+### Binance Research Crypto Industry Map / Nov 14, 2022
+
+![Binance Research Crypto Industry Map](./images/community/twitter/binance-research-crypto-industry-map.jpeg)
+
+[Twitter](https://twitter.com/BinanceResearch/status/1592136915545100289)
+
 ### Kryptos Arweave Ecosystem / Mar 24, 2022
 
 ![Kryptos Arweave Ecosystem](./images/community/twitter/kryptos-arweave-ecosystem.jpeg)
@@ -250,6 +365,12 @@
 ![BNB Master Digital Currency Group Portfolio](./images/community/twitter/bnb-master-digital-currency-group-portfolio.jpeg)
 
 [Twitter](https://twitter.com/Master_BNB/status/1481972607872237571)
+
+### Verto Arweave Ecosystem / Jan 13, 2022
+
+![Verto Arweave Ecosystem](./images/community/twitter/verto-arweave-ecosystem.jpeg)
+
+[Twitter](https://twitter.com/vertoexchange/status/1481349494968971266)
 
 ### CoinF Digital Currency Group Portfolio / Nov 20, 2021
 

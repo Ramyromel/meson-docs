@@ -8,7 +8,7 @@ Who are the most suitable miners for Meson Network?
 - Dedicated servers' owners
 - IDC servers' (corporation/organization/schools) owners.
 
-They are welcomed to become our most stable terminals suppliers. As a result, by making the most use of these idle resources, it becomes an economical and healthy model according to the blueprint and positioning of Meson Network Project.
+They are welcome to become our most stable terminal suppliers. As a result, by making the most use of these idle resources, it becomes an economical and healthy model according to the blueprint and positioning of Meson Network Project.
 
 ## Prerequisite
 
@@ -18,7 +18,7 @@ They are welcomed to become our most stable terminals suppliers. As a result, by
 
 ## Mining Rules
 
-Please check [miningrules](https://dashboard.meson.network/ming_rules_msntt) for details.
+Please check [mining rules](https://dashboard.meson.network/ming_rules_msntt) for details.
 
 Mining Score = Bandwidth Score * Storage Score * Credit Score
 
@@ -26,7 +26,7 @@ Basically, Bandwidth is the most important related fact for BandwidthScore.
 
 And, Storage Space is necessary to cache the files for StorageScore.
 
-In addition, standing and stable servers will have a higher CreditScore.
+In addition, standing and stable servers will have a higher Credit Score.
 
 Also, there will be some reward adjustments for servers in different regions.
 <div style="text-align:center">
@@ -53,7 +53,7 @@ Also, there will be some reward adjustments for servers in different regions.
     </tr>
     <tr>
         <td>Bandwidth Upper Bound</td>
-        <td>Bandwidth score won't increase after bandwidth reaching 1200 Mb/s</td>
+        <td>Bandwidth score won't increase after bandwidth reaching 1500 Mb/s</td>
     </tr>
     <tr>
         <td>Storage Score</td>
@@ -65,9 +65,9 @@ Also, there will be some reward adjustments for servers in different regions.
     </tr>
     <tr>
         <td>Credit Score</td>
-        <td><img src="./images/credit-score.svg" /><br>If your node is online and stable, the credit will increase gradually until maximum value 10000000
+        <td><img src="./images/credit-score.svg" /><br>If your node is online and stable, the credit will increase gradually until The maximum value is 10,000,000
 When your node goes offline the credit will decrease gradually until 0.
-Makes your node stable to get more token.</td>
+Makes your node stable to get more tokens.</td>
     </tr>
     <tr>
         <td>Example</td>
@@ -77,7 +77,3 @@ Makes your node stable to get more token.</td>
 </div>
 
 All the Testnet Tokens will be mapped to 1% of the Mainnet Tokens. according to FAQ-Token, there will be 100,000,000 initial Meson Tokens, of which there will be 1,000,000 Tokens are used as the exchange of Testnet Tokens.
-
-**Your Mainnet Tokens = (Your Testnet Tokens / All Testnet Tokens) * (1% * All Mainnet Tokens) = (Your Testnet Tokens / All Testnet Tokens) * 1,000,000**
-
-For example, let's assume there will be total 160,000,000 Testnet Tokens at last, and you have 2,000,000 Testnet Tokens that time, then you will get (2,000,000 / 160,000,000) * 1,000,000 = 125,000 Mainnet Tokens.
