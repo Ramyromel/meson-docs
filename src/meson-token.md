@@ -1,6 +1,6 @@
-# $Meson 🐢
+# <img src="./images/msn.svg" width="35"> $MSN
 
-Meson is Meson.Network's incentive and governance token. It has four primary functions:
+MSN is Meson.Network's incentive and governance token. It has four primary functions:
 
 - For rewarding miners
 - For staking by miners
@@ -8,60 +8,81 @@ Meson is Meson.Network's incentive and governance token. It has four primary fun
 - Protocol governance
 - The tokens are distributed to network terminals (miners) as rewards for providing server resources.
 
-Currently, there are no benefits for staking the tokens as the functions of transfer for Meson Test Tokens on Ethereum are locked. Users of the services will pay in Meson Tokens to get additional bandwidth. These tokens are then rewarded to miners through the repurchase and destruction of tokens.
+Currently, there are no benefits for staking the tokens as the functions of transfer for Meson Test Tokens on Ethereum are locked. Users of the services will pay in MSN to get additional bandwidth. These tokens are then rewarded to miners through the repurchase and destruction of tokens.
 
 Meson allows its Token holders to vote on development or modification of parameters of the protocol.
 
 ## Token Details
 
-- Token Ticker: Meson(TBD)
-- Initial Supply: 100,000,000 Meson
+- Token Ticker: MSN
+- Initial Supply: 100,000,000 MSN
+
+## Initial Token Launch
+
+- 1.Total initial token supply: 100 million tokens
+- 2.Initial supported chains:
+  - 2.1 Ethereum Mainnet
+  - 2.2 Arbitrum
+- 3.Miners have the option to choose either chain 2.1 or 2.2 for token claiming.
+- 4.Initial airdrops (if exist) will be distributed on Arbitrum chain or Ethereum Mainnet chain.
+- 5.Tokens from the investors and public sale will be distributed on Ethereum Mainnet.
+
+::: tip 📝 Note
+Meson may expand to additional chains in the future, but the summation of token supply across different chains will remain constant. For instance, if {x number} tokens are burned on chain "A," an equivalent {x number} amount will be minted on chain "B."
+:::
 
 ## Token Distribution
 
-- Seed Token Sale: 6,000,000 Meson (6%)
-- Private Token Sale: 22,000,000 Meson (22%)
-- Public Token Sale: 10,000,000 Meson (10%)
-- Community & Ecosystem: 20,000,000 Meson (20%)
-- Foundation Reservation: 20,000,000 Meson (20%)
-- Technical Team: 15,000,000 Meson (15%)
-- Partners: 6,000,000 Meson (6%)
-- Test-Net Mapping: 1,000,000 Meson (1%)
+- Jumpstart: 0.80%
+- Airdrop: 2.20%
+- Public Sales: 5.00%
+- Partners: 6.00%
+- Technical Team: 15.00%
+- Foundation reserves: 20.00%
+- Ecosystem: 25.00%
+- Investors: 26.00%
 
-![](./images/token/meson-token-metrics.png)
-
-## Token Unlock Plan
-
-- 10% of the sold tokens in the Public Round are directly circulating.
-- Tokens reserved for the technical team are fully locked initially and will be linearly unlocked monthly over 3 years starting from the 6th month after the MainNet goes live.
-- Tokens reserved for Foundation, Partners, and Community are fully locked and will be linearly unlocked monthly over 3 years after the MainNet goes live.
-- Tokens sold in the Seed Round will be linearly unlocked monthly over 18 months after the MainNet goes live.
-- Tokens sold in the Private Round will be linearly unlocked monthly over 12 months after the MainNet goes live.
-- TestNet Tokens will be mapped to 1% of all the tokens on MainNet and are directly circulating after the MainNet goes live.
-
-![](./images/token/meson-supply-curve.png)
+![](./images/token/tokenomics-06.svg)
 
 ## Token Functions
 
-- Miners get Token rewards after joining the meson network and devoting their server resources.
-- Miners can stake meson tokens to accelerate the mining efficiency.
-- Clients use meson tokens to accelerate any internet media resource e.g file/images/video/streaming/website etc
-- Anyone can use meson tokens for election and voting of on-chain governance/proposals/etc.
+- MSN tokens empower users to access bandwidth and big-data services previously exclusive to major corporations such as Google and Akamai. 1.1 The bandwidth service accelerates internet content delivery, encompassing webpages, videos, streaming content, files, and more. 1.2 The big-data service emerges as a pivotal success factor across diverse industries, including online advertising, social media, marketing, finance, and beyond.
+- MSN tokens are granted as rewards to miners who contribute server resources to the Meson network.
+- MSN tokens, when staked by miners, lead to increased efficiency in mining operations.
+- MSN tokens are used by network participants for engaging in governance processes, such as voting in elections and making decisions on on-chain proposals.
 
 ## Total Token Inflation
 
 All token inflation comes from mining rewards. The first-year mining inflation rate is 5%. The inflation rate drops 0.5% each year.
 
-![inflation rate vs time](./images/token/inflation-rate-vs-time.png)
+![inflation rate vs time](./images/token/inflation-rate-vs-time-01.svg)
 
 ## Token Circulation
 
-Miners will get meson tokens as a reward while providing an idle server to meson.network. Miners will reach full mining speed only if they stack meson tokens accordingly. Clients send payments to meson.network while using meson service. All meson tokens can be exchanged at CEX or DEX.
+Miners will get MSN as a reward while providing an idle server to meson.network. Miners will reach full mining speed only if they stack MSN accordingly. Clients send payments to meson.network while using Meson service. All MSN can be exchanged at CEX or DEX.
 
-![](./images/token/meson-token-circulation.png)
+## Core Team Allocation
 
-## Testnet Token Contract(MSNTT)
+“development team members” or “developers” is defined the same as “core team members” which includes sub-teams below:
 
-Ethereum Contract Address: 0x318b13467537f58890002847fe71eb2a74b6a5a5
+1. tech team (developers who contribute code to meson.network)
+2. marketing team
+3. production team
+4. operation team
+5. advisors
+6. advocate
 
-Ethereum Contract: [Source Code](https://etherscan.io/address/0x318b13467537f58890002847fe71eb2a74b6a5a5)
+Initially, all tokens are assigned to the tech team, subsequently redistributed to the respective sub-teams.
+
+The vesting schedule of the 2 ~ 6 sub-teams is longer compared with the “tech team”.
+
+**Important !!!**:
+1. The exact vesting schedule of tech team (sub-team 1 ) is already determined.
+2. The exact vesting schedule of 2 ～ 6 sub-teams is not determined currently and Meson.network retains authority over determining the precise vesting schedule for these sub-teams.
+3. Meson.network reserves the right to appoint who belongs to which team.
+
+## Testnet Token Contract(MSN)
+
+Ethereum(Sepolia) Contract Address: 0xde939833Ed21FE3833d3d9E545dC7Faa9F161D06
+
+Ethereum(Sepolia) Contract: [Source Code](https://sepolia.etherscan.io/token/0xde939833Ed21FE3833d3d9E545dC7Faa9F161D06)
